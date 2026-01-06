@@ -1,7 +1,12 @@
 import React from "react";
+import Login from "./Auth/Login";
 
 const App = () => {
-  return <div>Hey</div>;
+  return (
+    <div>
+      <Login />
+    </div>
+  );
 };
 
 export default App;
